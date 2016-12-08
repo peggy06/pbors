@@ -1,0 +1,100 @@
+﻿body.marketing-login 
+{
+  background: #ededed;
+  height: 100%;
+}
+
+body.marketing-login #headerholder {
+  background: transparent!important;
+}
+
+/*---- Login ----*/
+
+.lf-title
+{
+    display: none;
+}
+
+#loginholder {
+  width: 100%;
+  height: auto;
+  margin: 2em auto 4em auto;
+}
+
+#loginholder img {
+  margin: 1em;
+  display: inline-block;
+}
+
+.login-form {
+  width: 390px;
+  margin: 0 auto;
+  padding: 1em 2em;
+  background: #ffffff;
+  border-bottom: 3px solid #7d7d7d;
+  -webkit-box-shadow: 0 27px 24px rgba(0,0,0,0.02), 0 40px 77px rgba(0,0,0,0.12);
+  -moz-box-shadow: 0 27px 24px rgba(0,0,0,0.02), 0 40px 77px rgba(0,0,0,0.12);
+  -ms-box-shadow: 0 27px 24px rgba(0,0,0,0.02), 0 40px 77px rgba(0,0,0,0.12);
+  -o-box-shadow: 0 27px 24px rgba(0,0,0,0.02), 0 40px 77px rgba(0,0,0,0.12);
+  box-shadow: 0 27px 24px rgba(0,0,0,0.02), 0 40px 77px rgba(0,0,0,0.12);
+}
+
+.login-form h2{
+  margin: 0px;
+}
+
+.login-form h3{
+  font-size: 20px!important;
+  text-align: center;
+  color: #313131;
+}
+
+.group {
+  margin: 40px auto;
+}
+
+.login-form .material-btn {
+  width: 100%!important;
+  color: #0079c1;
+  margin-top: 3em;
+}
+
+.alert-box {
+  color: #555;
+  padding: 10px;
+  font-size: 15px;
+  width: 100%;
+  text-align: center;
+  margin: 1em auto;
+}
+
+.alert-box .mdi {
+  font-size: 1.85em;
+  margin-right: 5px;
+  vertical-align: sub;
+}
+
+.error {
+  background: #ffecec;
+  color: #d31245;
+}
+
+.success {
+  background: #e9ffd9;
+  color: #00aa7e;
+}
+
+@media (max-width: 450px) {
+  .login-form {
+    width: 100%;
+    padding: 20px;
+  }
+  .checkbox-group label .check {
+    left: 77px;
+  }
+  .checkbox-group label span {
+    left: 70px;
+  }
+}
+
+/*---- End of Login ----*/
